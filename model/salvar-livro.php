@@ -1,5 +1,5 @@
-<? php 
-require_once"../model/Conexao.php";
+<?php 
+require_once"Conexao.php";
 $nome_livro = $_GET["txt_livro"];
 
 $sql = "INSERT INTO public.book
